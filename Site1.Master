@@ -1,0 +1,314 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Avowapparel.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="https://www.avowapparel.com/sites/default/files/Favicon.jpg" type="image/jpeg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta content="ie=edge, chrome=1" http-equiv="x-ua-compatible" />
+    <script type="text/javascript">window.NREUM || (NREUM = {}), __nr_require = function (e, n, t) { function r(t) { if (!n[t]) { var o = n[t] = { exports: {} }; e[t][0].call(o.exports, function (n) { var o = e[t][1][n]; return r(o ? o : n) }, o, o.exports) } return n[t].exports } if ("function" == typeof __nr_require) return __nr_require; for (var o = 0; o < t.length; o++) r(t[o]); return r }({ QJf3ax: [function (e, n) { function t(e) { function n(n, t, a) { e && e(n, t, a), a || (a = {}); for (var u = c(n), f = u.length, s = i(a, o, r), p = 0; f > p; p++) u[p].apply(s, t); return s } function a(e, n) { f[e] = c(e).concat(n) } function c(e) { return f[e] || [] } function u() { return t(n) } var f = {}; return { on: a, emit: n, create: u, listeners: c, _events: f } } function r() { return {} } var o = "nr@context", i = e("gos"); n.exports = t() }, { gos: "7eSDFh" }], ee: [function (e, n) { n.exports = e("QJf3ax") }, {}], 3: [function (e, n) { function t(e) { return function () { r(e, [(new Date).getTime()].concat(i(arguments))) } } var r = e("handle"), o = e(1), i = e(2); "undefined" == typeof window.newrelic && (newrelic = window.NREUM); var a = ["setPageViewName", "addPageAction", "setCustomAttribute", "finished", "addToTrace", "inlineHit", "noticeError"]; o(a, function (e, n) { window.NREUM[n] = t("api-" + n) }), n.exports = window.NREUM }, { 1: 12, 2: 13, handle: "D5DuLP" }], "7eSDFh": [function (e, n) { function t(e, n, t) { if (r.call(e, n)) return e[n]; var o = t(); if (Object.defineProperty && Object.keys) try { return Object.defineProperty(e, n, { value: o, writable: !0, enumerable: !1 }), o } catch (i) { } return e[n] = o, o } var r = Object.prototype.hasOwnProperty; n.exports = t }, {}], gos: [function (e, n) { n.exports = e("7eSDFh") }, {}], handle: [function (e, n) { n.exports = e("D5DuLP") }, {}], D5DuLP: [function (e, n) { function t(e, n, t) { return r.listeners(e).length ? r.emit(e, n, t) : (o[e] || (o[e] = []), void o[e].push(n)) } var r = e("ee").create(), o = {}; n.exports = t, t.ee = r, r.q = o }, { ee: "QJf3ax" }], id: [function (e, n) { n.exports = e("XL7HBI") }, {}], XL7HBI: [function (e, n) { function t(e) { var n = typeof e; return !e || "object" !== n && "function" !== n ? -1 : e === window ? 0 : i(e, o, function () { return r++ }) } var r = 1, o = "nr@id", i = e("gos"); n.exports = t }, { gos: "7eSDFh" }], G9z0Bl: [function (e, n) { function t() { var e = d.info = NREUM.info, n = f.getElementsByTagName("script")[0]; if (e && e.licenseKey && e.applicationID && n) { c(p, function (n, t) { n in e || (e[n] = t) }); var t = "https" === s.split(":")[0] || e.sslForHttp; d.proto = t ? "https://" : "http://", a("mark", ["onload", i()]); var r = f.createElement("script"); r.src = d.proto + e.agent, n.parentNode.insertBefore(r, n) } } function r() { "complete" === f.readyState && o() } function o() { a("mark", ["domContent", i()]) } function i() { return (new Date).getTime() } var a = e("handle"), c = e(1), u = (e(2), window), f = u.document, s = ("" + location).split("?")[0], p = { beacon: "bam.nr-data.net", errorBeacon: "bam.nr-data.net", agent: "js-agent.newrelic.com/nr-632.min.js" }, d = n.exports = { offset: i(), origin: s, features: {} }; f.addEventListener ? (f.addEventListener("DOMContentLoaded", o, !1), u.addEventListener("load", t, !1)) : (f.attachEvent("onreadystatechange", r), u.attachEvent("onload", t)), a("mark", ["firstbyte", i()]) }, { 1: 12, 2: 3, handle: "D5DuLP" }], loader: [function (e, n) { n.exports = e("G9z0Bl") }, {}], 12: [function (e, n) { function t(e, n) { var t = [], o = "", i = 0; for (o in e) r.call(e, o) && (t[i] = n(o, e[o]), i += 1); return t } var r = Object.prototype.hasOwnProperty; n.exports = t }, {}], 13: [function (e, n) { function t(e, n, t) { n || (n = 0), "undefined" == typeof t && (t = e ? e.length : 0); for (var r = -1, o = t - n || 0, i = Array(0 > o ? 0 : o) ; ++r < o;) i[r] = e[n + r]; return i } n.exports = t }, {}] }, {}, ["G9z0Bl"]);</script>
+    <meta http-equiv="ImageToolbar" content="false" />
+    <meta name="generator" content="Drupal 7 (http://drupal.org)" />
+    <meta name="robots" content="follow, index" />
+    <meta name="keywords" content="islamic fashion, muslim clothing, online muslim store, modern muslim clothing, hijabs, hijabi, modest clothing, muslim fashion, islamic clothing, muslimah fashion, muslim women clothing, modest tops, modest fashion, women clothing" />
+    <link rel="canonical" href="https://www.avowapparel.com/" />
+    <link rel="shortlink" href="https://www.avowapparel.com/" />
+    <meta name="description" content="Avow Apparel Islamic Clothing offers a fresh new line of premium clothing &amp; accessories for the modern Muslim woman &amp; modest women of all backgrounds. Free Shipping on orders of $250 or more." />
+    <title>Avow Apparel Islamic Clothing</title>
+    <!--CSS-->
+    <link href="/Content/Local/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" rel="stylesheet" media="all" />
+    <link href="/Content/Local/css_lCw0iOwR3PKINM4z-Cy_krEgJcyXXlD3WtV8LUX0DlY.css" rel="stylesheet" media="all" />
+    <link href="/Content/Local/css_UgqjF0YSp3-PYSsDu5YSXTx4BJ50lzXU-2hW0uFzY_c.css" rel="stylesheet" media="all" />
+    <link href="/Content/Local/css_0T5k3UtGNefYdhHZwnCGmkodRVdxxRXFLhctAZtHfB0.css" rel="stylesheet" media="all" />
+    <link href="/Content/Local/css_Lb3M8KDPtl72lM6Rk85Ds6ApPABl7vHwp6oS7215Wts.css" rel="stylesheet" media="all" />
+    <script type="text/javascript " src="/Scripts/Local/js_0gj6QcpfRH2jzTbCQqf7kEkm4MXY0UA_sRhwPc8jC1o.js"></script>
+    <script type="text/javascript " src="/Scripts/Local/js_Hv9oh90iw2Bo5u7eQes-kTnJTobKtCn_nB_f7R6-6l8.js"></script>
+    <script type="text/javascript " src="/Scripts/Local/js_qhJGpA_op7IgHW_mlUg_5cNWwLocFGpG2GY9JBA8-gk.js"></script>
+    <script type="text/javascript " src="/Scripts/Local/js_ULmcojWJvKPlrFL6yTfqfPeEqrGr6qBobDxEBoVqSio.js"></script>
+    <link href="Content/Local/pnotify.custom.min.css" rel="stylesheet" />
+ <%--   <link href="Content/Local/pnotify.core.css" rel="stylesheet" />--%>
+    <%--<script src="Scripts/Local/pnotify.core.js"></script>--%>
+    <script src="Scripts/Local/pnotify.custom.min.js"></script>
+  <%--  <link href="Content/bootstrap.min.css" rel="stylesheet" />--%>
+    <style> 
+        .btn-style{
+	border : solid 0px #000000;
+	-webkit-box-shadow : 0px 0px 2px rgba(0,0,0,1.0);
+	-moz-box-shadow : 0px 0px 2px rgba(0,0,0,1.0);
+	box-shadow : 0px 0px 2px rgba(0,0,0,1.0);
+	font-size : 20px;
+	color : #ffffff;
+	padding : 1px 17px;
+	
+	
+
+}
+        .textox {
+   width: 200px;
+   height: 20px;
+   border: solid 2px #00E3E3;
+   padding: 2px;
+   border-radius: 5px;
+   font-size: 12px;
+   box-shadow: 0px 1px 2px 0px #9C9C9C;
+   background-color: #FFFFFF;
+   outline: none;
+   color: #474747;
+  }
+.textox:hover  {
+   border: 2px solid #7192E6;
+  }
+.textox:focus  {
+   border: solid 2px #000000;
+   box-shadow: inset 0px 1px 2px 0px #9C9C9C;
+  }
+.textox:active  {
+   border: solid 2px #0043EB;
+  }
+    </style>
+    <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+    var _gaq = _gaq || []; _gaq.push(["_setAccount", "UA-49574112-1"]); _gaq.push(["_trackPageview"]); (function () { var ga = document.createElement("script"); ga.type = "text/javascript"; ga.async = true; ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ga, s); })();
+    //--><!]]>
+    </script>
+    <script src="/Scripts/Local/js_83zgtainmduQnRa2jfOFtruyeffZh_Max2KVjUAFsxM.js"></script>
+    <script src="/Scripts/Local/js_Jx6gjLp5-3t_1puqyOHDuKnFw0YVayaGwdraaSrPL9E.js"></script>
+    <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+    jQuery.extend(Drupal.settings, { "basePath": "\/", "pathPrefix": "", "ajaxPageState": { "theme": "webster", "theme_token": "t0EDQfZ5gKiSIzwNvGYLQ17vS8ij-pqNPmnhOIIlo4U", "js": { "sites\/all\/modules\/jquery_update\/replace\/jquery\/1.7\/jquery.min.js": 1, "misc\/jquery.once.js": 1, "misc\/drupal.js": 1, "sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js": 1, "sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js": 1, "sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.position.min.js": 1, "profiles\/commerce_kickstart\/modules\/contrib\/commerce_add_to_cart_confirmation\/js\/commerce_add_to_cart_confirmation.js": 1, "sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js": 1, "profiles\/commerce_kickstart\/modules\/contrib\/colorbox\/js\/colorbox.js": 1, "profiles\/commerce_kickstart\/modules\/contrib\/colorbox\/styles\/plain\/colorbox_style.js": 1, "profiles\/commerce_kickstart\/modules\/contrib\/colorbox\/js\/colorbox_inline.js": 1, "sites\/all\/modules\/selectmenu\/js\/jquery.ui.selectmenu\/jquery.ui.selectmenu.js": 1, "sites\/all\/modules\/selectmenu\/js\/selectmenu.js": 1, "sites\/all\/modules\/google_analytics\/googleanalytics.js": 1, "0": 1, "sites\/all\/modules\/nivo_slider\/js\/nivo_slider.js": 1, "sites\/all\/libraries\/nivo-slider\/jquery.nivo.slider.pack.js": 1, "sites\/all\/themes\/zurb_foundation\/js\/modernizr.foundation.js": 1, "sites\/all\/themes\/zurb_foundation\/js\/jquery.orbit-1.4.0.js": 1, "sites\/all\/themes\/zurb_foundation\/js\/jquery.customforms.js": 1, "sites\/all\/themes\/zurb_foundation\/js\/jquery.placeholder.min.js": 1, "sites\/all\/themes\/zurb_foundation\/js\/jquery.tooltips.js": 1, "sites\/all\/themes\/zurb_foundation\/js\/jquery.foundation.alerts.js": 1, "sites\/all\/themes\/zurb_foundation\/js\/jquery.foundation.accordion.js": 1, "sites\/all\/themes\/zurb_foundation\/js\/jquery.foundation.buttons.js": 1, "sites\/all\/themes\/zurb_foundation\/js\/jquery.foundation.tooltips.js": 1, "sites\/all\/themes\/zurb_foundation\/js\/jquery.foundation.forms.js": 1, "sites\/all\/themes\/zurb_foundation\/js\/jquery.foundation.tabs.js": 1, "sites\/all\/themes\/zurb_foundation\/js\/jquery.foundation.navigation.js": 1, "sites\/all\/themes\/zurb_foundation\/js\/jquery.foundation.reveal.js": 1, "sites\/all\/themes\/zurb_foundation\/js\/jquery.foundation.orbit.js": 1, "sites\/all\/themes\/zurb_foundation\/js\/jquery.foundation.mediaQueryToggle.js": 1, "sites\/all\/themes\/zurb_foundation\/js\/jquery.offcanvas.js": 1, "sites\/all\/themes\/zurb_foundation\/js\/app.js": 1, "sites\/all\/themes\/webster\/js\/foundation\/modernizr.foundation.js": 1, "sites\/all\/themes\/webster\/js\/foundation\/jquery.foundation.reveal.js": 1, "sites\/all\/themes\/webster\/js\/foundation\/jquery.foundation.orbit.js": 1, "sites\/all\/themes\/webster\/js\/foundation\/jquery.customforms.js": 1, "sites\/all\/themes\/webster\/js\/foundation\/jquery.placeholder.js": 1, "sites\/all\/themes\/webster\/js\/foundation\/jquery.foundation.tooltips.js": 1, "sites\/all\/themes\/webster\/js\/foundation\/jquery.foundation.alerts.js": 1, "sites\/all\/themes\/webster\/js\/foundation\/jquery.foundation.accordion.js": 1, "sites\/all\/themes\/webster\/js\/foundation\/jquery.foundation.buttons.js": 1, "sites\/all\/themes\/webster\/js\/foundation\/jquery.foundation.forms.js": 1, "sites\/all\/themes\/webster\/js\/foundation\/jquery.foundation.tabs.js": 1, "sites\/all\/themes\/webster\/js\/foundation\/jquery.foundation.navigation.js": 1, "sites\/all\/themes\/webster\/js\/foundation\/jquery.foundation.mediaQueryToggle.js": 1, "sites\/all\/themes\/webster\/js\/foundation\/jquery.foundation.topbar.js": 1, "sites\/all\/themes\/webster\/js\/foundation\/app.js": 1, "sites\/all\/themes\/webster\/js\/foundation\/jquery.offcanvas.js": 1, "sites\/all\/themes\/webster\/js\/scripts.js": 1, "sites\/all\/themes\/webster\/js\/webster.behaviors.js": 1 }, "css": { "modules\/system\/system.base.css": 1, "modules\/system\/system.menus.css": 1, "modules\/system\/system.messages.css": 1, "modules\/system\/system.theme.css": 1, "misc\/ui\/jquery.ui.core.css": 1, "misc\/ui\/jquery.ui.theme.css": 1, "profiles\/commerce_kickstart\/modules\/contrib\/commerce_add_to_cart_confirmation\/css\/commerce_add_to_cart_confirmation.css": 1, "profiles\/commerce_kickstart\/modules\/commerce_kickstart\/commerce_kickstart_menus\/commerce_kickstart_menus.css": 1, "sites\/all\/modules\/date\/date_api\/date.css": 1, "sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css": 1, "modules\/field\/theme\/field.css": 1, "modules\/node\/node.css": 1, "modules\/user\/user.css": 1, "profiles\/commerce_kickstart\/modules\/contrib\/views\/css\/views.css": 1, "profiles\/commerce_kickstart\/modules\/contrib\/colorbox\/styles\/plain\/colorbox_style.css": 1, "profiles\/commerce_kickstart\/modules\/contrib\/ctools\/css\/ctools.css": 1, "sites\/all\/modules\/selectmenu\/js\/jquery.ui.selectmenu\/jquery.ui.selectmenu.css": 1, "sites\/all\/libraries\/nivo-slider\/themes\/default\/default.css": 1, "sites\/all\/libraries\/nivo-slider\/nivo-slider.css": 1, "sites\/all\/themes\/webster\/css\/framework\/ie.css": 1, "sites\/all\/themes\/zurb_foundation\/css\/foundation.min.css": 1, "sites\/all\/themes\/webster\/css\/drupal.css": 1, "sites\/all\/themes\/webster\/css\/custom.css": 1 } }, "colorbox": { "opacity": "0.85", "current": "{current} of {total}", "previous": "\u00ab Prev", "next": "Next \u00bb", "close": "Close", "maxWidth": "98%", "maxHeight": "98%", "fixed": true, "mobiledetect": true, "mobiledevicewidth": "480px" }, "selectmenu": { "selectmenu_css_whitelist": "#example-div .something span select", "form_id_exceptions": ["fivestar-custom-widget"], "ignore_system_settings_forms": 1, "ignore_overlay_forms": 1, "ignore_node_add_forms": 1, "disable_for_admin_theme": 0, "options": { "width": "200" } }, "googleanalytics": { "trackOutbound": 1, "trackMailto": 1, "trackDownload": 1, "trackDownloadExtensions": "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip" }, "nivo_slider": { "effect": "fade", "slices": 15, "boxCols": 8, "boxRows": 4, "animSpeed": 500, "pauseTime": 3000, "startSlide": 1, "directionNav": true, "controlNav": false, "controlNavThumbs": false, "pauseOnHover": true, "manualAdvance": false, "prevText": "Prev", "nextText": "Next", "randomStart": false } });
+    //--><!]]>
+    </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<!--<body class="html front not-logged-in no-sidebars page-node i18n-en lang-en">-->
+<body class="html not-front not-logged-in no-sidebars page-shop-the-collection page-shop-the-collection-tops-and-layering i18n-en lang-en section-shop-the-collection views-page" style="width:100%; overflow-x:hidden
+    ">
+    <form id="form1" runat="server">
+      
+        <div id="skip-link">
+            <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+        </div>
+        <div class="l-top-bar">
+            <div class="navline">
+                <div class="headernav">
+                    <h2 class="element-invisible">User menu</h2>
+                    <ul id="user-menu-links" class="links user-menu--links clearfix">
+                         <li> <input type="search" class="textox" name="searchProduct" id="qsearch" placeholder="Search" /></li>
+                        <li>
+                           <a href="#" id="searchBtn" >Search</a></li>
+                         <%if(Session["CurrentUser"] == null){ %>
+                        <li class="menu-2614 first"><a href="login.aspx">Sign In</a></li>
+                        <%} else {%>
+                        <li class="menu-2614 first" runat="server" id="logoffbutton"><a href ="login.aspx?param=logoff"  onclick="">Sign Out</a></li>
+                        <%} %>
+                        <li class="menu-2613 last"><a href="cart.aspx">Shopping Basket</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="top-left">
+                <div class="site__logo">
+                    <a href="/" rel="home" title=" Home" class="active">
+                        <img class="logo" src="Content/Images/logo.png" alt=" logo" title="Home" /></a>
+                </div>
+                <div class="nine columns mobile-two">
+                    <h1 id="site-name"></h1>
+                </div>
+            </div>
+        </div>
+        <div class="contain-to-grid main-nav">
+            <nav class="top-bar">
+                <ul class="title-area">
+                    <li class="name"></li>
+                    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+                </ul>
+                <section class="top-bar-section">
+                    <div id="block-menu-menu-store-menu" class="block block-menu block-odd">
+                        <div>
+                            <ul class="menu">
+                                <li class="first leaf"><a href="Page1.aspx?cat=1">Tops &amp; Layering</a></li>
+                                <li class="leaf"><a href="Page1.aspx?cat=2">Dresses</a></li>
+                                <li class="leaf"><a href="Page1.aspx?cat=3">Skirts &amp; Pants</a></li>
+                                <li class="last leaf"><a href="Page1.aspx?cat=4">Accessories</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </nav>
+        </div>
+        <div class="mainbody container">
+            <div class="row" id="mmwd-main-content">
+                <section role="main">
+                    <div class="row">
+                        <div id="main" class="twelve columns">
+
+
+
+                            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                            </asp:ContentPlaceHolder>
+
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <nav class="twelve columns hide-for-small l-nav-bar">
+                <h2 class="element-invisible">Main menu</h2>
+                <ul id="main-menu" class="nav-bar">
+                    <li class="menu-1669 first"><span class="nolink">Company</span></li>
+                    <li class="menu-1670"><span class="nolink">Help</span></li>
+                    <li class="menu-1671"><span class="nolink">Policies</span></li>
+                    <li class="menu-1672"><span class="nolink">Media</span></li>
+                   <li class="menu-1673"><span class="nolink"> <a style="color:white" href="Mailing.aspx">Subscribe</a></span></li>
+                   <%-- <li class="menu-1673 last"><a href="/mailing-list-signup?inline=true#block-mailchimp-lists-website-signup" class="colorbox-inline">Join Us</a></li>--%>
+                   <%-- <li class="menu-1673 last"><a href="/mailing-list-signup?inline=true#block-mailchimp-lists-website-signup" class="colorbox-inline">Join Us</a></li>--%>
+                </ul>
+            </nav>
+            <div class="content-bottom">
+                <div id="block-menu-block-1" class="block block-menu-block block-even">
+                    <div>
+                        <div class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-1669 menu-level-1">
+                            <ul class="menu">
+                                <li class="first leaf menu-mlid-1692"><a href="info.aspx">Info</a></li>
+                                <li class="last leaf menu-mlid-1691"><a href="/vision.aspx">Vision</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="block-menu-block-2" class="block block-menu-block block-odd">
+                    <div>
+                        <div class="menu-block-wrapper menu-block-2 menu-name-main-menu parent-mlid-1670 menu-level-1">
+                            <ul class="menu">
+                                <li class="first leaf menu-mlid-2921"><a href="/contact.aspx">Contact</a></li>
+                                <li class="leaf menu-mlid-1693"><a href="/us-shipping.aspx">US Shipping</a></li>
+                                <li class="last leaf menu-mlid-5619"><a href="/international-shipping.aspx">International Shipping</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="block-menu-block-3" class="block block-menu-block block-even">
+                    <div>
+                        <div class="menu-block-wrapper menu-block-3 menu-name-main-menu parent-mlid-1671 menu-level-1">
+                            <ul class="menu">
+                                <li class="first leaf menu-mlid-1694"><a href="/returns-exchanges.aspx">Returns &amp; Exchanges</a></li>
+                                <li class="leaf menu-mlid-1696"><a href="/privacy-policy.aspx">Privacy Policy</a></li>
+                                <li class="last leaf menu-mlid-1695"><a href="/terms-conditions.aspx">Terms &amp; Conditions</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="block-menu-block-4" class="block block-menu-block block-odd">
+                    <div>
+                        <div class="menu-block-wrapper menu-block-4 menu-name-main-menu parent-mlid-1672 menu-level-1">
+                            <ul class="menu">
+                                <li class="first last leaf menu-mlid-1698"><a href="/events.aspx">Events</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="block-bean-social-networking" class="block block-bean block-even">
+                    <div>
+                        <div class="entity entity-bean bean-social-networking clearfix">
+                            <div class="content">
+
+                                <div class="field field-name-field-icons-and-urls field-type-field-collection field-label-hidden">
+                                    <div class="field-items">
+                                        <div class="field-item even">
+                                            <div class="field field-name-field-link-url field-type-text field-label-hidden">
+                                                <div class="field-items">
+                                                    <div class="field-item even">
+                                                        <a href="http://www.facebook.com/avowapparel" target="blank">
+                                                            <img src="/Content/Images/fpink.png" class="icons" /></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="field-item odd">
+                                            <div class="field field-name-field-link-url field-type-text field-label-hidden">
+                                                <div class="field-items">
+                                                    <div class="field-item even">
+                                                        <a href="http://www.instagram.com/avowapparel" target="blank">
+                                                            <img src="/Content/Images/igpink.png" class="icons" /></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="field-item even">
+                                            <div class="field field-name-field-link-url field-type-text field-label-hidden">
+                                                <div class="field-items">
+                                                    <div class="field-item even">
+                                                        <a href="http://www.pinterest.com/avowapparel" target="blank">
+                                                            <img src="/Content/Images/pintpink.png" class="icons" /></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="field-item odd">
+                                            <div class="field field-name-field-link-url field-type-text field-label-hidden">
+                                                <div class="field-items">
+                                                    <div class="field-item even">
+                                                        <a href="http://www.twitter.com/avowapparel">
+                                                            
+                                                            <img src="/Content/Images/twpink.png" class="icons" /></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-bar">
+                <div class="row">
+                    <div class="tweleve columns">&copy; 2015 Avow Apparel - All rights reserved. </div>
+                    
+                </div>
+                <div id="myModal" class="">
+                    <img src="/Content/Images/size-chart-pop-up.png" />
+                    <a class="close-reveal-modal">&#215;</a>
+                </div>
+            </div>
+            <style>
+                .abcC{
+
+                    background-color:#f381d5;
+                    color:#000000;
+                    opacity:0.1;
+
+                }
+            </style>
+            <script type="text/javascript">
+                jQuery(document).ready(function () {
+
+                    function ShowNotification(Title, Type, Message) {
+                        new PNotify({
+                            title: Title,
+                            text: Message,
+                            type: Type,
+                            addclass: "stack_topleft",
+                            addclass: "abcC",
+                            delay: 1000
+                        });
+                    }
+                  
+                    jQuery("#buttonForModal").click(function () {
+                        jQuery("#myModal").reveal();
+                    });
+                    jQuery("#searchBtn").click(function () {
+                        var searchItem = jQuery("#qsearch").val().trim();
+                        if (searchItem!= "")
+                            location.href = "/Page1.aspx?q=" + jQuery("#qsearch").val() + "";
+                    });
+                });
+            </script>
+        </div>
+        <script type="text/javascript">window.NREUM || (NREUM = {}); NREUM.info = { "beacon": "bam.nr-data.net", "licenseKey": "2c3324ea72", "applicationID": "3791944", "transactionName": "NAZbbUMEV0cFARFdWw1MbEtYShZdCgYATBoTC0k=", "queueTime": 0, "applicationTime": 40, "ttGuid": "", "agentToken": "", "atts": "GEFYGwseREk=", "errorBeacon": "bam.nr-data.net", "agent": "js-agent.newrelic.com\/nr-632.min.js" }</script>
+
+        
+    </form>
+</body>
+</html>

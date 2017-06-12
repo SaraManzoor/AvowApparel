@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="97fff13a7ecc42f786509f9c78d403ab" Name="Diagram1" ZoomLevel="66">
+        <EntityTypeShape EntityType="ProDBModel.Category" Width="1.5" PointX="7.75" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProDBModel.User" Width="1.5" PointX="0.75" PointY="4.75" />
+        <EntityTypeShape EntityType="ProDBModel.Product" Width="1.5" PointX="10" PointY="3.875" />
+        <AssociationConnector Association="ProDBModel.ONE_CATEGORY_HAS_MANY_PRODUCTS" />
+        <EntityTypeShape EntityType="ProDBModel.Order" Width="1.5" PointX="3" PointY="1.25" />
+        <EntityTypeShape EntityType="ProDBModel.OrderItem" Width="1.5" PointX="5.25" PointY="1.5" />
+        <AssociationConnector Association="ProDBModel.ONE_ORDER_HAS_MANY_PRODUCTS" />
+        <EntityTypeShape EntityType="ProDBModel.Cart" Width="1.5" PointX="12.25" PointY="4.5" />
+        <AssociationConnector Association="ProDBModel.FK_Cart_Product" />
+        <EntityTypeShape EntityType="ProDBModel.Customer" Width="1.5" PointX="0.75" PointY="0.875" />
+        <AssociationConnector Association="ProDBModel.ONE_CUSTOMER_CAN_MANY_ORDERS" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
